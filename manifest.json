@@ -3,7 +3,6 @@
     "name": "Medium Member-Only Post Remover",
     "version": "1.0",
     "description": "Removes Member-only articles from Medium feeds.",
-    "permissions": ["activeTab"],
     "content_scripts": [
       {
         "matches": ["https://medium.com/*"],
